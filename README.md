@@ -2,6 +2,11 @@
 
 ## ***INTRODUCTION***
 
+* Language:
+  * Front-end: Jsp, Bootrap 4, Java Script.
+  * Back-end: Java Servlet.
+  * Database: SQL Server.
+* Model: MVC.
 * This website can manager:
   * Employee
   * Project
@@ -13,7 +18,7 @@
     * Extract salary to csv file.
     * Import cover photo for employee.
     * Import contact photo for project. 
-* Database: SQL SERVER
+* Database details: 
   * Tables: 
   <table>
     <tr>
@@ -48,12 +53,24 @@
         <td>Decentralization</td>
         <td>Manager permission</td>
     </tr>
-  
    </table>
    
-   
-
-
+   * Proceduces:
+     * Find, insert, edit, delete for every object (employee, project, task, ...).
+     * Sum salary follow mont, quarter, year for employee in one or all department.
+     * ...
+   * Function:
+     * Check a object was deleted.
+     * Function support proceduces calculate salary.
+     * ...
+   * View:
+     * View support proceduces calculate salary.
+     * ...
+   * Trigger:
+     * Update salary every month.
+     * Update permission.
+     * ...    
+    
 ## ***INSTALLATION***
 
 * You can install this project in [Technical company manager](https://github.com/ThadaPhan/Project_Manager_Web .git)
